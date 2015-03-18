@@ -24,6 +24,16 @@ describe("vending", function() {
     expect(subject.display()).toBe("0.25");
   });
 
+    it("displays values for known coins", function() {
+	expectCoinDisplays("NICKEL", "0.05");
+	# ..
+    });
+
+    function expectCoinDisplays(coin, display) {
+	subject.inssertCoin(coin);
+	expect(subject.display()).toBe(display);
+    }
+
   
 });
 
