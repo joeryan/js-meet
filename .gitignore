@@ -1,0 +1,2 @@
+#ignore backups for vi or emacs
+*~
