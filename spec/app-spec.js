@@ -11,29 +11,30 @@ describe("vending machine operation", function() {
     expect(subject.display()).toBe("INSERT COIN");
   });
 
-  it("displays 0.05 when a NICKEL is inserted", function() {
+ /*  it("displays 0.05 when a NICKEL is inserted", function() {
     subject.insertCoin("NICKEL");
-    expect(subject.insertCoin()).toBe("0.05");
+    expect(subject.display()).toBe("0.05");
   });
 
-  xit("displays 0.10 when a DIME is inserted", function() {
+  it("displays 0.10 when a DIME is inserted", function() {
     subject.insertCoin("DIME");
     expect(subject.display()).toBe("0.10");
   });
 
-  xit("displays 0.10 when a QUARTER is inserted", function() {
-    subject.insertCoin("QUATER");
+  it("displays 0.25 when a QUARTER is inserted", function() {
+    subject.insertCoin("QUARTER");
     expect(subject.display()).toBe("0.25");
   });
+*/
 
-  xit("displays values for known coins", function() {
+  it("displays values for known coins", function() {
 	expectCoinDisplays("NICKEL", "0.05");
 	expectCoinDisplays("DIME", "0.10");
 	expectCoinDisplays("QUARTER", "0.25");
     });
 
   function expectCoinDisplays(coin, display) {
-	subject.inssertCoin(coin);
+	subject.insertCoin(coin);
 	expect(subject.display()).toBe(display);
     }
 
