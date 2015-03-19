@@ -1,2 +1,4 @@
 #ignore backups for vi or emacs
 *~
+#ignore meetup notes
+*.notes
