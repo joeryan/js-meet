@@ -11,9 +11,9 @@ describe("vending machine operation", function() {
     expect(subject.display()).toBe("INSERT COIN");
   });
 
-  xit("displays 0.05 when a NICKEL is inserted", function() {
+  it("displays 0.05 when a NICKEL is inserted", function() {
     subject.insertCoin("NICKEL");
-    expect(subject.display()).toBe("0.05");
+    expect(subject.insertCoin()).toBe("0.05");
   });
 
   xit("displays 0.10 when a DIME is inserted", function() {

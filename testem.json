@@ -1,0 +1,8 @@
+{
+  "launch": "firefox",
+  "framework": "jasmine",
+  "src_files": [
+    "src/*.js",
+    "spec/*.js"
+  ]
+}
