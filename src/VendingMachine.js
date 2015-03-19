@@ -7,7 +7,9 @@ var VendingMachine = {
       }
 
       function insertCoin(coin) {
-	  _display = _coins[coin];
+	  if (_coins[coin])
+	      _display = _coins[coin];
+	  else _display = "INVALID COIN";
       }
 
       return {

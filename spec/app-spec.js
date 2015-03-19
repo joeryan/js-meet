@@ -33,6 +33,10 @@ describe("vending machine operation", function() {
 	expectCoinDisplays("QUARTER", "0.25");
     });
 
+    it("rejects invalid coins", function() {
+	expectCoinDisplays("SHEKEL", "INVALID COIN");
+    });
+
   function expectCoinDisplays(coin, display) {
 	subject.insertCoin(coin);
 	expect(subject.display()).toBe(display);
