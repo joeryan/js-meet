@@ -1,5 +1,11 @@
 march javascript usergroup meeting  #b1673c54848b
 
+embercolumbus meetup - hosting and time TBD
+ICC - looking for developers, Steve - lead recruiter at ICC, 
+    call tomorrow about future opportunities (devops, development,etc)
+Guy - pillar is always hiring, W2 and contractors (contract ot hire with GAP)
+everest technologies - katie
+
 git/airportyh/testem
 git/creationix/nvm for node version manager (0.11)
 
@@ -11,7 +17,7 @@ sudo ... install nvm # node.js version manager
 node -v
 nvm alias default 0.11
 npm install testem -g # -g #all users (global) nvm includes pacman npm
-
+source ~/.nvm/nvm.sh # add to ~/.bashrc or something
 #check testem
 testem -h
 
@@ -43,3 +49,11 @@ testem ci -R xunit
 # or testem ci -R dot, testem -ci > (send to file for jenkins)
 
 
+mirabai knight  - open steno project, plover - check pyvideo.org
+columbusideafoundry.com - coop machine shop, ethan dicks
+xterm - font changes, stock fonts - cjk
+steno keyboarding for code? look at mirabai
+ohio linux festival
+
+7am code and coffee at staufs 1277 grandview avenue, thursdays
+tab changes in emacs, vim.rc?
